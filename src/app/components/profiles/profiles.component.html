@@ -1,0 +1,10 @@
+
+
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}}
+        <span *ngIf="user.id>3">{{user.id}}</span>
+
+    </li>
+
+</ul>
